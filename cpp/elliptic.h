@@ -1,9 +1,8 @@
-
 class EllipticCurve {
 public:
-    int p;
-    int a;
-    int b;
+    int p {};
+    int a {};
+    int b {};
 };
 
 class Point {
