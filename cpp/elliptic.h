@@ -8,12 +8,12 @@ public:
 class Point {
 public:
     EllipticCurve curve;
-    int x;
-    int y;
+    int x {};
+    int y {};
 };
 
 class Generator {
 public:
-    Point point;
-    int order;
+    Point point {};
+    int order {};
 };
